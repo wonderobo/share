@@ -1,0 +1,75 @@
+.plugin_actions{
+    display: flex;
+    justify-content: start;
+    padding:10px;
+}
+.plugin_actions .act{
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    padding:0px 20px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.plugin_actions .actSel{
+    border:2px solid #f00;
+}
+.plugin_actions .act .mark{
+    display: block;
+    position: absolute;
+    background-color: #f00;
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    top:0px;
+    right:0px;
+    border-radius: 10px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.plugin_table{
+    display: block;
+    margin:auto;
+    border-collapse: collapse;;
+}
+.plugin_table td{
+    border:1px solid #ccc;
+    height: 40px;;
+    border-collapse: collapse;;
+    text-align: center;
+    padding:5px;
+    position: relative;
+}
+.plugin_table td .act{
+    display: block;
+    color: #fff;
+    line-height: 25px;
+    padding:0px 10px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1px;
+    float: left;
+}
+.plugin_table td .actSel{
+    border:2px solid #f00;
+}
+.plugin_table td .mark{
+    display: block;
+    position: absolute;
+    background-color: #f00;
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    top:0px;
+    right:0px;
+    border-radius: 10px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+}
